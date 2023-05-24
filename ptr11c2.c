@@ -11,7 +11,13 @@ int main(void) {
 
     printf("%c %c\n", c, *char_pointer);
 
+    c = '/';
+    printf("%c %c\n", c, *char_pointer);
 
+    c ='(';
+    printf("%c %c\n", c, *char_pointer);
+
+    return(0);
 
 
 }
